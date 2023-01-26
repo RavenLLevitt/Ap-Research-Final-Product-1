@@ -12,7 +12,7 @@ model_name = "gagan3012/k2t-new"
 text2text_generator = pipeline("text2text-generation", model=model_name)
 
 #translator decleration
-translator = deepl.Translator("b92d0f2a-2c86-3f15-b9e9-4f44fc65fd02:fx")
+translator = deepl.Translator("INSERT KEY")
 
 #deck type declerations, maybe add additional word types?
 nouns = DeckHandler()
